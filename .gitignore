@@ -1,0 +1,30 @@
+/no.txt
+# Логи
+logs/*
+*.log
+
+# Папки, создаваемые WebStorm
+.idea/
+*.iml
+
+# Временные файлы
+*.tmp
+*.swp
+*~
+
+# Файлы, создаваемые при сборке проекта
+dist/
+build/
+
+# Зависимости
+node_modules/
+bower_components/
+
+# Файлы конфигурации
+.eslintrc.js
+.prettierrc.js
+
+# Тестовые данные
+coverage/
+cypress/screenshots/
+cypress/videos/
